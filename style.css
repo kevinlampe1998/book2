@@ -1,0 +1,74 @@
+:root, * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+}
+
+section {
+    height: 100%;
+    width: 50%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: white;
+}
+#page1Id {
+    left: 50%;
+    border: 1px solid black;
+    transform: scaleX(1);
+}
+
+.book-middle-left {
+    position: absolute;
+    height: 100%;
+    width: 5%;
+    background-image: linear-gradient(to right, white , black);
+    right: 0;
+}
+
+.book-middle-right {
+    position: absolute;
+    height: 100%;
+    width: 5%;
+    background-image: linear-gradient(to left, white , black);
+    left: 0;
+}
+
+#click-area1 {
+    position: absolute;
+    height: 100%;
+    width: 10%;
+    right: 0;
+    border: 1px solid black;
+    z-index: 20;
+}
+
+/* ----- page2 ------------------------------------------ */
+
+#page2Id {
+    transform: scaleX(1);
+    /* left: 50%;  */
+    /* z-index: 10; */
+}
+
+#click-area2 {
+    position: absolute;
+    height: 100%;
+    width: 10%;
+    left: 0;
+    border: 1px solid black;
+    /* z-index: 30; */
+}
+
+#page3Id {
+    position: absolute;
+    left: 50%;
+    z-index: -20;
+}
