@@ -46,16 +46,16 @@ section {
     height: 100%;
     width: 10%;
     right: 0;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     z-index: 20;
 }
 
 /* ----- page2 ------------------------------------------ */
 
 #page2Id {
-    transform: scaleX(1);
-    /* left: 50%;  */
-    /* z-index: 10; */
+    transform: scaleX(-1);
+    left: 50%; 
+    z-index: -10;
 }
 
 #click-area2 {
@@ -63,7 +63,7 @@ section {
     height: 100%;
     width: 10%;
     left: 0;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     /* z-index: 30; */
 }
 
